@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Registaration</title>
+    <link rel="stylesheet" href="./style.css"></link>
+</head>
+<body>
+<form>
+    <h1>Student Registaration Form</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <label for="f name">First Name:</label>
+            </div>
+            <div class="col-90">
+                <input type="text" id="f name" name="Firstname" placeholder="Enter your first name">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <label for="l name">Last Name:</label>
+            </div>
+            <div  class="col-90">
+                <input type="text" id="f name" name="Firstname" placeholder="Enter your first name">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <label for="email">Email:</label>
+            </div>
+            <div class="col-90">
+                <input type="email" id="email" name="email" placeholder="it should contain@.com">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <label for="Mobile">Mobile:</label>
+            </div>
+            <div class="col-90">
+                <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <label for="gender"required>Gender:</label>
+            </div>
+            <div class="col-90">
+                <input type="radio" id="male" name="gender" value="male"/>Male
+                <input type="radio" id="female" name="gender" value="male"/>Female
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <label for="dob">Date Of Birth:</label>
+            </div>
+            <div class="col-90">
+                <input type="Date" id="dob" name="dob">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <label for="address">Address:</label>
+            </div>
+            <div class="col-90">
+                <text are a name="address" id="address" cols="30" rows="10"></text>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <label for="city">City:</label>
+            </div>
+            <duv class="col-90">
+                <input type="text" id="city" name="city" max length="10">
+            </duv>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="pincode">Area Pin:</label>
+                </div>
+                <div class="col-90">
+                    <input type="nnumber" id="pin" name="pin" max length="6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="state">state:</label>
+                </div>
+            <div class="col-90">
+                <input type="text" id="state" name="state">
+            </div>
+            </div>       
+            <div class="row">
+                <div class="col-10">
+                    <label for="qualification" required>qualification:</label>
+                </div>
+            <div class="col-90">
+                <select name="qualification" id="qualification">
+                <option value="">Select Qualification:</option>
+                <option value="Graduation">Graduation</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="MCA">MCA</option>
+                <option value="BCA">BCA</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <label for="specialization">Specialization:</label>
+            </div>
+            <div class="col-90">
+                <input type="checkbox" class="specialization" id="cs" name="specialization[]" value="Computer Science">Computer Science</br>
+                <input type="checkbox" class="specialization" id="itr" name="specialization[]" value="Information Technology">Information Technology</br>
+                <input type="checkbox" class="specialization" id="ca" name="specialization[]" value="Computer Architecture">Computer Architecture</br>
+                <input type="checkbox" class="specialization" id="tc" name="specialization[]" value="Tele Communication">Tele Communication</br>>
+            </div>
+        </div>    
+        <div class="row">
+            <div class="col-10">
+                <label for="password:">Password</label>
+            </div>
+            <div class="col-90">
+                <input type="password" id="password" name="password" max length="8">
+            </div>
+        </div>              
+        <div class="row">
+            <input type="submit" value="Registaration" onclick="Save Student Details()">
+        </div>
+    </div>
+</form>
+</body>
+</html>
